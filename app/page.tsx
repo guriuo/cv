@@ -517,7 +517,7 @@ const ContactSection = () => {
             <div className="container mx-auto px-4 sm:px-6">
                 <div className="max-w-2xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-bold">Open to New Opportunities</h2>
-                    <p className="text-accent text-lg mt-2 mb-8">Have a role that seems like a good fit? I'd love to hear from you.</p>
+                    <p className="text-accent text-lg mt-2 mb-8">Have a role that seems like a good fit? I&apos;d love to hear from you.</p>
                 </div>
                 <form onSubmit={onSubmit} className="max-w-xl mx-auto mt-8 space-y-4">
                     <input type="text" name="name" placeholder="Full Name" required className="w-full bg-gray-800/50 border border-border rounded p-3 text-primary focus:ring-1 focus:ring-accent focus:outline-none backdrop-blur-sm" />
